@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bundle and Save</title>
+    <style>
+   
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin-bottom: +318px;
+        }
+
+        .container-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-top: +186px;
+        }
+
+        .container {
+            display: flex;
+            width: 340.73px;
+            align-items: center;
+        }
+
+        .line {
+            width: 94px;
+            height: 0;
+            border-top: 2px solid#C8C8C8; /* Add 'solid' border style */
+            color: #C8C8C8;
+        }
+
+        .text {
+            font-size: 20px;
+            font-family: "Metropolis", sans-serif;
+            font-weight: 500;
+            color: green;
+            margin: 0 20px;
+        }
+
+        .box-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+        }
+        .text-wrapper {
+            margin-top: 10px;
+            margin-right: auto;
+        }
+        .text-wrapper2 {
+            margin-top: -20px;
+            margin-left: auto;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: flex-end; /* Align to the right */
+            margin-top: 10px;
+            margin-left: auto;
+        }
+
+
+        .box {
+            border: 1px solid black;
+            padding: 10px;
+            width: 340.73px;
+            position: relative;
+            margin-top: 20px;
+            border-radius: 4px;
+            align-items: center;
+        }
+        .box1{
+            height: 74.11px;
+        }
+        .box2{
+            height: 161.78px;
+            background-color: #F4FBF9;
+            border-color: #007F61;
+            border-width: 0.9px;
+
+        }
+        .box4{
+            color: white;
+            height: 48px;
+            background-color: #007F61;
+            text-align: center;
+            font: 1em sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .corner-text {
+            position: absolute;
+            align-items: center;
+            margin-top: 25px;
+            left: 250.1px;
+            font-weight: 700;
+        }
+        .popular{
+            color: #007F61;
+            font-weight: bold;
+        }
+        .radio-text1 {
+            /* position: absolute; */
+            align-items: center;
+        }
+        .radio-text2 {
+            position: absolute;
+            align-items: center;
+            margin-top: 29px;
+            margin-left: -38px;
+            font-weight: 700;
+        }
+        .corner-text-description{
+            position: absolute;
+            left: 225.1px;
+            margin-top: 5px;
+        }
+        .radio{
+            display: inline;
+            margin-top: 10px;
+            margin-right: 5px;
+        }
+        
+        .oneline{
+            display: flex;
+            flex-direction: row;
+        }
+        .free{
+            color: #007F61;
+            left: 340.73px;
+        }
+        .selector-container {
+      position: relative;
+      width: 65.98px;
+      height: 25.31px;
+      border: 2px solid #D9D9D9;
+      border-radius: 5px;
+      justify-content: left;
+      align-items: center;
+      font-size: 15px;
+      margin-left: 20px;
+      margin-top: 10px;
+      background-color: white;
+    }
+    .arrow {
+  position: absolute;
+  content: "";
+  top: 10px;
+  right: 5px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #000 transparent transparent transparent;
+}
+    .select-heading{
+        padding-top: 40px;
+        padding-left: 60px;
+        /* padding-right: 40px; */
+    }
+    .select-row{
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+    
+    .strike{
+        text-decoration: line-through;
+        opacity: 0.5;
+        padding-left: 124px;
+        margin-top: -133.33px;
+        font-size: 12px;
+    }
+    .select-text{
+        padding-left: 3px;
+        padding-top: 3px;
+    }
+
+    /* Styling for the arrow */
+    
+        
+
+    </style>
+</head>
+<body>
+    <!-- Text and Lines Container -->
+    <div class="container-wrapper">
+        <div class="container">
+            <div class="line"></div>
+            <div class="text">Bundle&Save</div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <!-- Box Wrapper to contain multiple boxes -->
+    <div class="box-wrapper">
+        <!-- Box 1 -->
+        <div class="box box1">
+            <input type="radio" name="radioBtn" class="radio">
+            <span class="radio-text1">1 Pair</span>
+            <span class="radio-text2">DKK 195.00</span>
+            <span class="corner-text">50% OFF</span>
+        </div>
+
+        <!-- Box 2 (You can add more boxes here) -->
+        <div class="box box2">
+            <input type="radio" name="radioBtn" class="radio" checked style=" filter: hue-rotate(260deg);">
+
+            <span class="radio-text1">2 Pair</span>
+            <span class="radio-text2">DKK 345.00</span>
+            <span class="corner-text-description popular">Most Popular</span>
+            <span class="corner-text">40% OFF</span>
+            <div class="oneline gap">
+                <div class="oneline select-heading">Size</div>
+                   <div class="oneline  select-heading">Colour</div>
+            </div>
+                   
+            <div class="oneline">
+                <div class="select-row">#1</div>
+                <div class="selector-container">
+                    <span class="arrow"></span>
+                    <div class="select-text">S</div>
+                  </div>
+                  <div class="selector-container">
+                    <span class="arrow"></span>
+                    <div class="select-text">Colour</div>
+                  </div>
+            </div>
+            <div class="oneline">
+                <div class="select-row">#2</div>
+                <div class="selector-container">
+                    <span class="arrow"></span>
+                    <div class="select-text">S</div>
+                  </div>
+                  <div class="selector-container">
+                    <span class="arrow"></span>
+                    <div class="select-text">Colour</div>
+                  </div>
+            </div>
+            <div class="strike">  <span >DKK 195.00</span></div>
+        </div>
+
+        <div class="box box1">
+            <input type="radio" name="radioBtn" class="radio">
+            <span class="radio-text1">3 Pair</span>
+            <span class="radio-text2">DKK 528.00</span>
+            <span class="corner-text">60% OFF</span>
+        </div>
+        <span class="text-wrapper free">Free 2 Day Shipping</span>
+        <span class="text-wrapper2">Total: DKK 360.00</span>
+        <div class="box box4">
+            <h2>+Add to Cart</h2>
+        </div>
+            <div class="footer-container"><span>© Powered by Pumper</span></div>
+        <!-- Add more boxes as needed -->
+    </div>
+        
+    
+    
+    
+</body>
+</html>

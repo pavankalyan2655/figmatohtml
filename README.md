@@ -1,4 +1,4 @@
-# figmatohtml
+# figma to html
 This is a basic HTML static page. 
 Added css for styling.
 TODO: Need to add options for select button.

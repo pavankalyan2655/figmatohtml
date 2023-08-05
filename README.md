@@ -8,6 +8,7 @@ Edge result:
 ![image](https://github.com/pavankalyan2655/figmatohtml/assets/141508852/501c2f32-7fee-4866-9ebd-6a32294dc8eb)
 
 Chrome result:
-![image](https://github.com/pavankalyan2655/figmatohtml/assets/141508852/32022973-f3e9-4d11-bd58-942af4ab0250)
+![image](https://github.com/pavankalyan2655/figmatohtml/assets/141508852/e68e3137-d1a6-47ad-b5e2-f2b3bf8a3c5f)
+
 
 
